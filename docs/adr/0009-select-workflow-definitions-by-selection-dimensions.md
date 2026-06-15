@@ -1,0 +1,3 @@
+# Select Workflow Definitions By Selection Dimensions
+
+Workflow Definitions split their metadata into Workflow Selection Dimensions and Workflow Execution Dimensions. Workflow Selector uses only the selection dimensions to recommend candidate Workflow Definitions from the Workflow Catalog, then leaves final confirmation to a user, upstream system, or organizational policy. It does not create Workflow Runs, select steps or skills, authorize targets, or decide final impact scope. We chose this boundary to keep selection explainable and prevent the selector from becoming a hidden workflow executor or authorization system.
